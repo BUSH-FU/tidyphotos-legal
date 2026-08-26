@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Tidyphotos</title>
+<meta name="description" content="Tidyphotos Privacy Policy. 100% on-device. No data collection. No servers. No third-party sharing.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="legal">
+
+<nav class="nav">
+  <div class="brand">Tidyphotos</div>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+</nav>
+
+<header class="legal-head wrap">
+  <h1>Privacy Policy</h1>
+  <div class="meta">Last updated: August 26, 2026 &middot; Effective immediately</div>
+</header>
+
+<main class="wrap">
+
+  <section class="block">
+    <div class="callout">
+      <strong>Short version.</strong> Tidyphotos does not collect, transmit, sell, rent, or share any personal data. The app has no servers. The app does not require an account. The app does not contain any third-party analytics, advertising, or tracking SDK. All of your photos, videos, voice memos, in-app progress, and preferences are stored exclusively on your device and remain under your control at all times.
+    </div>
+    <p>This Privacy Policy explains, in detail, what data Tidyphotos does and does not handle, the iOS permissions the app requests and why, how Apple&rsquo;s In-App Purchase system processes payments, and the rights you have under laws such as the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA/CPRA), the UK Data Protection Act, the Personal Data Protection Law of the United Arab Emirates, and similar privacy regulations.</p>
+  </section>
+
+  <section class="block">
+    <h2>1. Data controller</h2>
+    <p>Tidyphotos is published by an independent developer (referred to in this policy as &ldquo;Tidyphotos&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;). Because we do not collect any personal data from you, there is, in the strict sense, no personal data for us to control. You remain the sole controller of everything stored on your device.</p>
+    <p>For privacy questions, contact <a href="mailto:privacy@tidyphotos.app">privacy@tidyphotos.app</a>.</p>
+  </section>
+
+  <section class="block">
+    <h2>2. Information we do NOT collect</h2>
+    <p>To be unambiguous, the following information is never collected, transmitted, or shared by Tidyphotos:</p>
+    <ul>
+      <li>Your photos or videos, or any content derived from them (thumbnails, hashes, perceptual fingerprints, or EXIF metadata).</li>
+      <li>Your voice memos or any transcripts created from them.</li>
+      <li>Your custom album names, classifications, favorites, or in-app progress.</li>
+      <li>Your device identifiers, advertising identifiers (IDFA), or any persistent identifiers.</li>
+      <li>Your location, contacts, calendar, or any other iOS data outside the permissions you explicitly grant.</li>
+      <li>Crash logs, analytics events, performance telemetry, or usage statistics.</li>
+      <li>Any data sent to remote servers, cloud storage, or third-party services.</li>
+    </ul>
+    <p>Tidyphotos does not perform any network request in the normal course of using the app, with the sole exception of communicating with Apple for In-App Purchase receipts (see Section 6).</p>
+  </section>
+
+  <section class="block">
+    <h2>3. Information stored locally on your device</h2>
+    <p>The app stores the following information locally on your device, in the app&rsquo;s sandboxed container. None of it leaves your device:</p>
+    <ul>
+      <li><strong>Photo-library index:</strong> a list of item identifiers in your Photos library that you have already swiped through, used solely to avoid showing you the same item again.</li>
+      <li><strong>Marked-for-deletion queue:</strong> the items you swiped up to delete, held until you confirm deletion.</li>
+      <li><strong>Custom albums and favorites:</strong> the albums you created inside Tidyphotos and the items you double-tapped to favorite.</li>
+      <li><strong>Voice memos:</strong> audio recordings and their on-device transcripts attached to specific items.</li>
+      <li><strong>App preferences:</strong> the language you selected, theme, onboarding state, and other settings.</li>
+    </ul>
+    <p>You can erase all of the above at any time by deleting the app from your device. Uninstalling Tidyphotos removes its sandbox entirely. iOS may also delete app sandbox data automatically when storage is critically low.</p>
+  </section>
+
+  <section class="block">
+    <h2>4. iOS permissions we request</h2>
+    <p>Tidyphotos asks for the following iOS permissions only when needed. Each permission is requested at the moment it is first required, never at first launch:</p>
+    <ul>
+      <li><strong>Photos (Limited or Full Library Access):</strong> required to read the photos and videos you choose to clean up, to mark them for deletion, to write items back to your library, and to keep the local index described in Section 3. We never upload these items.</li>
+      <li><strong>Microphone (only if you record a voice memo):</strong> used solely to capture audio for the voice-memo feature. The recording is stored locally as a file inside the app sandbox. Speech recognition, when used, is performed by Apple&rsquo;s on-device Speech framework (see Section 7).</li>
+      <li><strong>Speech Recognition (only if you enable transcription):</strong> optional. Transcribes your voice memos locally using Apple&rsquo;s Speech framework.</li>
+    </ul>
+    <p>We do not request location, contacts, calendar, Bluetooth, motion, or advertising-tracking permissions.</p>
+  </section>
+
+  <section class="block">
+    <h2>5. How the swipe-to-delete flow works</h2>
+    <p>Tidyphotos never deletes a photo or video as a result of a single swipe. The flow is intentionally two-step:</p>
+    <ol>
+      <li>You swipe up on an item. The item is added to a local &ldquo;Marked for deletion&rdquo; queue. The original item is not modified yet.</li>
+      <li>You confirm deletion in the Review screen. Only at this moment does Tidyphotos call Apple&rsquo;s PhotoKit APIs to remove the items you marked, and iOS moves the deletion through its own Recently Deleted album with the standard 30-day retention policy.</li>
+    </ol>
+    <p>This two-step pattern is a product safety feature, not a privacy practice, but it materially reduces the chance that any media item is unintentionally or permanently removed.</p>
+  </section>
+
+  <section class="block">
+    <h2>6. Apple In-App Purchases</h2>
+    <p>Tidyphotos offers optional subscriptions (Monthly, Annual) and a Lifetime unlock. All purchases are processed exclusively by Apple through StoreKit. We do not collect, store, or transmit your name, email, billing address, or payment instrument. Apple returns a receipt to your device; Tidyphotos may store that receipt locally to determine your entitlement. Apple&rsquo;s handling of purchase data is governed by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a>.</p>
+    <p>All sales are final. Refund requests are handled by Apple Support through the standard App Store refund flow.</p>
+  </section>
+
+  <section class="block">
+    <h2>7. Voice memos and on-device speech recognition</h2>
+    <p>When you record a voice memo, the audio file is stored inside the app sandbox on your device. If you choose to enable transcription, Tidyphotos calls Apple&rsquo;s Speech framework, which performs recognition on-device when available. Audio and transcripts are never uploaded to any server, including ours or any third-party service.</p>
+  </section>
+
+  <section class="block">
+    <h2>8. Third-party services</h2>
+    <p>Tidyphotos does not integrate any third-party SDK that accesses your photos, voice memos, or personal data. The app contains no analytics SDK, no advertising SDK, no crash-reporting SDK, no A/B testing SDK, no social SDK, and no remote-configuration SDK.</p>
+  </section>
+
+  <section class="block">
+    <h2>9. Children&rsquo;s privacy</h2>
+    <p>Tidyphotos does not knowingly collect any personal data from children. The app does not include any feature that targets children as a primary audience, contains no advertising, and requires no account. Because no data is collected at all, no special handling is required under the U.S. Children&rsquo;s Online Privacy Protection Act (COPPA), the EU GDPR-K provisions, the UK Age-Appropriate Design Code, or equivalent laws.</p>
+  </section>
+
+  <section class="block">
+    <h2>10. Your rights under GDPR (EEA &amp; UK)</h2>
+    <p>Because Tidyphotos does not process any personal data on its servers, most GDPR rights (access, rectification, erasure, restriction, objection, portability) translate to actions you can perform directly on your device:</p>
+    <ul>
+      <li><strong>Access &amp; Portability:</strong> your data lives on your device, in standard iOS formats. You can back it up through iTunes/Finder or iCloud according to your own iCloud settings.</li>
+      <li><strong>Erasure:</strong> deleting the app removes all locally stored data immediately.</li>
+      <li><strong>Withdraw consent:</strong> you can revoke Photos, Microphone, or Speech Recognition permission at any time in iOS Settings &rarr; Privacy.</li>
+    </ul>
+    <p>For any privacy request that we cannot resolve by pointing you to the corresponding on-device control, write to <a href="mailto:privacy@tidyphotos.app">privacy@tidyphotos.app</a>.</p>
+  </section>
+
+  <section class="block">
+    <h2>11. Your rights under CCPA/CPRA (California)</h2>
+    <p>The CCPA and CPRA grant California residents the right to know, delete, correct, and limit the use of sensitive personal information. Because Tidyphotos does not collect personal information, does not sell personal information, and does not share personal information for cross-context behavioral advertising, there is no personal information to disclose, sell, or delete beyond what is stored locally on your device and is therefore already fully under your control.</p>
+  </section>
+
+  <section class="block">
+    <h2>12. International data transfers</h2>
+    <p>Tidyphotos does not transfer any data internationally because it does not transfer any data off your device. Apple&rsquo;s processing of In-App Purchase receipts is governed by Apple&rsquo;s privacy policy and occurs within Apple&rsquo;s infrastructure.</p>
+  </section>
+
+  <section class="block">
+    <h2>13. Data retention</h2>
+    <p>Data on your device is retained until you delete it. Uninstalling Tidyphotos immediately deletes its sandbox. Photos you mark for deletion pass through iOS&rsquo;s Recently Deleted album, which iOS itself clears after 30 days; Tidyphotos does not control that 30-day window.</p>
+  </section>
+
+  <section class="block">
+    <h2>14. Security</h2>
+    <p>Because the app does not transmit your photos, voice memos, or personal data off your device, the largest class of data-security risks (transit interception, server breach, third-party SDK compromise) does not apply. Local data is protected by your device&rsquo;s passcode, Face ID, and iOS app sandbox.</p>
+  </section>
+
+  <section class="block">
+    <h2>15. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will revise the &ldquo;Last updated&rdquo; date at the top of this page. If the change is material, we will surface a notice inside the app or via the App Store release notes before it takes effect.</p>
+  </section>
+
+  <section class="block">
+    <h2>16. Contact</h2>
+    <p>For any privacy question, request, or complaint, contact:</p>
+    <p><a href="mailto:privacy@tidyphotos.app">privacy@tidyphotos.app</a></p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Tidyphotos. All rights reserved.
+  &middot; <a href="index.html">Home</a>
+  &middot; <a href="terms.html">Terms</a>
+</footer>
+
+</body>
+</html>
