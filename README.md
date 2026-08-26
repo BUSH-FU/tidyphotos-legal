@@ -30,6 +30,17 @@ Direct links used in App Store Connect:
 - Privacy Policy URL: `https://bush-fu.github.io/tidyphotos-legal/privacy.html`
 - Terms of Service URL: `https://bush-fu.github.io/tidyphotos-legal/terms.html`
 
+## App Store Connect URLs
+
+Paste these directly into the corresponding fields in **App Store Connect → App Information**:
+
+| Field | URL |
+|---|---|
+| Marketing URL | `https://bush-fu.github.io/tidyphotos-legal/` |
+| Support URL | `https://bush-fu.github.io/tidyphotos-legal/support.html` |
+| Privacy Policy URL | `https://bush-fu.github.io/tidyphotos-legal/privacy.html` |
+| Terms of Service URL (EULA) | `https://bush-fu.github.io/tidyphotos-legal/terms.html` |
+
 ## Current publisher info
 
 - **Developer / Publisher**: Fu Zhonglin (付忠霖)
