@@ -23,18 +23,23 @@ The app itself is 100% on-device, has no servers, no accounts, and no data colle
 
 ## URL after GitHub Pages is enabled
 
-`https://bosh-fu.github.io/tidyphotos-legal/`
+`https://bush-fu.github.io/tidyphotos-legal/`
 
 Direct links used in App Store Connect:
 
-- Privacy Policy URL: `https://bosh-fu.github.io/tidyphotos-legal/privacy.html`
-- Terms of Service URL: `https://bosh-fu.github.io/tidyphotos-legal/terms.html`
+- Privacy Policy URL: `https://bush-fu.github.io/tidyphotos-legal/privacy.html`
+- Terms of Service URL: `https://bush-fu.github.io/tidyphotos-legal/terms.html`
 
-## Placeholders to replace before final publishing
+## Current publisher info
 
-- `privacy@tidyphotos.app` — replace with the real support email you want exposed in App Store Connect.
-- &ldquo;Tidyphotos&rdquo; — replace with your legal entity name (or keep as the personal developer name registered with Apple).
+- **Developer / Publisher**: Fu Zhonglin (付忠霖)
+- **Contact email**: `fzl.tsinghua@gmail.com`
+
+## Things to revisit before final publishing
+
 - The site is currently English-only. Add localized HTML pages (`de.html`, `fr.html`, etc.) before launching in those markets.
+- Consider binding a custom domain (e.g. `tidyphotos.app`) in **Settings → Pages → Custom domain**.
+- Have a licensed attorney review the legal pages before relying on them in production.
 
 ## License
 
