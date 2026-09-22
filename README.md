@@ -44,7 +44,7 @@ Paste these directly into the corresponding fields in **App Store Connect → Ap
 ## Current publisher info
 
 - **Developer / Publisher**: Fu Zhonglin (付忠霖)
-- **Contact email**: `fzl.tsinghua@gmail.com`
+- **Contact email**: `376662397@qq.com`
 
 ## Things to revisit before final publishing
 
