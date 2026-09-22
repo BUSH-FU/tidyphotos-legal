@@ -22,7 +22,8 @@ img { max-width: 100%; height: auto; display: block; }
   align-items: center;
   justify-content: space-between;
 }
-.nav .brand { font-weight: 700; font-size: 18px; letter-spacing: 0.2px; }
+.nav .brand { font-weight: 700; font-size: 18px; letter-spacing: 0.2px; display: flex; align-items: center; gap: 10px; }
+.nav .brand .nav-logo { width: 28px; height: 28px; border-radius: 7px; }
 .nav .links a { color: #fff; margin-left: 18px; font-size: 14px; opacity: 0.9; }
 .nav .links a:hover { opacity: 1; text-decoration: underline; }
 
